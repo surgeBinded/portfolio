@@ -33,17 +33,9 @@ p, li, span, label, input, textarea {
 
 a {
     text-decoration: none;
+    position: relative;
     color: #17a2b8;
 }
-
-/* 
-a:hover::before {
-    content: '> ';
-    position: relative;
-    left: 20px;
-    color: #17a2b8;
-} 
-*/
 
 ul {
     list-style: none;
@@ -51,14 +43,10 @@ ul {
     padding-left: 20px;
 }
 
-a {
-    position: relative;
-}
-
-a:hover::before {
+a.details:hover::before {
     content: '-> ';
     position: absolute;
-    left: -20px;
+    left: -25px;
 }
 
 ul {

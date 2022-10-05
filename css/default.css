@@ -167,6 +167,11 @@ ul {
     width: 200px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
+    transition: transform 1s;
+}
+
+#profile-pic:hover {
+    transform: scale(1.5);
 }
 
 #theme-options-wrapper {
@@ -188,7 +193,7 @@ ul {
 }
 
 .theme-dot:hover {
-    border-width: 5px;
+    transform: scale(1.5);
 }
 
 #light-mode {
